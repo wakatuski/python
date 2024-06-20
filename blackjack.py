@@ -1,7 +1,7 @@
 import random
 
 def create_deck():
-    suits = ['ハート', 'ダイヤ', 'クラブ', 'スペード']
+    suits = ['ハート', 'ダイヤ', 'クラブ', 'スペード']#aaaaa
     ranks = ['2', '3', '4', '5', '6', '7', '8', '9', '10', 'J', 'Q', 'K', 'A']
     deck = [{'スート': suit, 'ランク': rank} for suit in suits for rank in ranks]
     random.shuffle(deck)
